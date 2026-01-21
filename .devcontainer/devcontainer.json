@@ -1,0 +1,9 @@
+{
+  "image": "ghcr.io/cirruslabs/flutter:stable",
+  "extensions": [
+    "dart-code.flutter",
+    "dart-code.dart-code"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,consistency=cached",
+  "workspaceFolder": "/workspace"
+}
